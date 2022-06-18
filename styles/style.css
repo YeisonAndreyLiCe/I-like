@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin:0px;
+    outline:none;
+    box-sizing: border-box;
+    border:collapse;
+}
+
+html, body{
+    width:100%;
+}
+
+body{
+    background-color: rgb(0,0,0,0.8);
+    color: #FFFCF9;
+    padding:10px 15%;
+    font-family: monospace;
+}
+
+header {
+    width: 100%;
+}
+
+.top {
+    color: #0A100D;
+    padding-left: 20px;
+    background-color: #FD905E;
+}
+
+.feed{
+    margin-left:30%;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.user_container{
+    flex:1;
+}
+
+.user{
+    height: auto;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid #FFA347;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:15px;
+}
+
+.friend_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people{
+    flex:3;
+}
+
+a{
+    color:#F45B69;
+}
+
+img{
+    height: 70px;
+}
+
+
+button{
+    margin-left: 5px;
+    background-color:pink;
+    padding: 5px;
+    box-shadow: 4px 4px 4px black;
+}
+
+.user_friend{
+    padding: 10px;
+    border: 2px solid #FFA347;
+    margin-top: 10px;
+}
+
+h1{
+    margin-right: 20px;
+}
+
+.friend_top h1{
+    flex:1;
+}
+
+.description{
+    margin-top:5px;
+}
